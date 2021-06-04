@@ -32,6 +32,6 @@ class YamlParser:
         """file -> python object"""
         with open(fp, 'r') as file:
             try:
-                return from_dict(yaml.load(file, Loader=yaml.FullLoade))
+                return from_dict(yaml.load(file, Loader=yaml.FullLoader))
             except yaml.YAMLError as e:
                 print("Error in load (YAML)", e)
