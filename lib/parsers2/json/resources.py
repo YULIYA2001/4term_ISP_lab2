@@ -1,0 +1,5 @@
+FLOAT_REGEX = r"-?\d+\.\d+"
+INT_REGEX = r"\d+"
+STR_REGEX = r"\"(.*)\""
+DICT_REGEX = r"\{([\s\S]*)\}"
+LIST_REGEX = r"\[([\s\S]*)\]"
